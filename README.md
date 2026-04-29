@@ -72,7 +72,7 @@ pkg install git -y
 
 # Clone the repo
 git clone https://github.com/FsBotzTg/FsDistro.git
-cd fsdistro
+cd FsDistro
 
 # Run the installer
 bash install.sh
