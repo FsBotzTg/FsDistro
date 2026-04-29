@@ -61,6 +61,11 @@ proot-distro list
 echo -e "${B}------------------------------------------${NC}"
 pd install fsdistro
 echo -e "${B}------------------------------------------${NC}"
+
+rm $PREFIX/var/lib/proot-distro/installed-rootfs/fsdistro/etc/sudoers
+mv sudoers $PREFIX/var/lib/proot-distro/installed-rootfs/fsdistro/etc/
+mv final.sh $PREFIX/var/lib/proot-distro/installed-rootfs/fsdistro/home/firos/
+
 clear
 echo -e "\n${G}SUCCESS: ${W}FsDistro is now Installed.${NC}"
 echo -e "${C}"
