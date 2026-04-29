@@ -12,7 +12,7 @@
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20aarch64-brightgreen?style=flat-square)]()
 [![Shell](https://img.shields.io/badge/shell-bash-00ff66?style=flat-square)]()
 
-*A lightweight, customized Linux environment running inside Termux via proot — no root required.*
+*A customized Linux environment running inside Termux via proot — no root required.*
 
 </div>
 
@@ -25,7 +25,7 @@
 - 🚫 **No root required** — runs entirely in userspace via proot
 - 📱 **Android-native** — designed for aarch64 and x86_64 Android devices
 - 🐚 **Shell-first** — built around a clean, productive terminal experience
-- 🪶 **Lightweight** — minimal base with only what you need
+- 🪶 **Customised** — fully customised linux distro
 
 ---
 
@@ -47,7 +47,7 @@
 | **Package** | `proot-distro` |
 | **Android** | 7.0+ (API 24+) |
 | **Architecture** | aarch64, x86_64 |
-| **Storage** | ~200 MB free space |
+| **Storage** | ~1.5 GB free space |
 
 ---
 
